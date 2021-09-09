@@ -1,5 +1,8 @@
 from taskmanager import db
 
+# app = Flask(__name__)
+# db = SQLAlchemy(app)
+
 
 class Category(db.Model):
     # schema for the Category model
